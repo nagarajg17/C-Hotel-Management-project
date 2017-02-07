@@ -36,7 +36,7 @@ if((feasible==0)||(threshold<mini)){
 for(int i=0;i<nooflec;i++)
 {
     for(int j=0;j<1;j++){
-        if(a[j]<a[j+1]){
+        if(a[i][j]<a[i][j+1]){
             a[i][j]+=1;
         }
 
@@ -47,7 +47,7 @@ if(mini>a[0][0]){
     for(int i=0;i<nooflec;i++)
 {
     for(int j=0;j<1;j++){
-        if(a[j]<a[j+1]){
+        if(a[i][j]<a[i][j+1]){
             a[i][j]+=1;
         }
 
