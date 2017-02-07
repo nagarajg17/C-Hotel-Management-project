@@ -69,6 +69,21 @@ for(int i=0;i<nooflec;i++)
 
     }
 }
+   if(diff!=0){
+     for(int i=0;i<nooflec;i++)
+{
+    for(int j=0;j<1;j++){
+        if(a[i][j]<threshold&&diff>0){
+            a[i][j]+=1;
+            diff--;
+        }
+        else{
+            break;
+        }
+
+    }
+}
+}
 /*for(int i=0;i<nooflec;i++)
 {
 for(int j=0;j<1;j++){
